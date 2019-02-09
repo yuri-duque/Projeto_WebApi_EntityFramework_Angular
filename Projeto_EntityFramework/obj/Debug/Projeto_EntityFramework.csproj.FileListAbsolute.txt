@@ -1,0 +1,12 @@
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\Projeto_EntityFramework.exe.config
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\Projeto_EntityFramework.exe
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\Projeto_EntityFramework.pdb
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\EntityFramework.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\EntityFramework.xml
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\obj\Debug\Projeto_EntityFramework.csprojAssemblyReference.cache
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\obj\Debug\Projeto_EntityFramework.csproj.CoreCompileInputs.cache
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\obj\Debug\Projeto_EntityFramework.csproj.CopyComplete
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\obj\Debug\Projeto_EntityFramework.exe
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_EntityFramework\obj\Debug\Projeto_EntityFramework.pdb
