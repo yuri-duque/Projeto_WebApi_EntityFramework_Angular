@@ -1,11 +1,9 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
-
 import { AppComponent } from './app.component';
-import { AlunosComponent } from './alunos/alunos.component';
 
 const routes: Routes = [
-  {path: 'alunos', component: AlunosComponent}
+  {path: 'alunos', loadChildren:'./alunos/alunos.module#AlunosModule'}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

@@ -6,11 +6,11 @@ import { AlunosFormComponent } from './alunos-form/alunos-form.component';
 import { AlunosDetalhesComponent } from './alunos-detalhes/alunos-detalhes.component';
 
 
-const routes: Routes = [
-  {path: 'alunos', component: AlunosComponent},
-  {path: 'alunos/cadastro', component: AlunosFormComponent},
-  {path: 'aluno/:id', component: AlunosFormComponent},
-  {path: 'aluno/detalhes/', component: AlunosDetalhesComponent}
+const AlunoRoutes: Routes = [
+  {path: '', component: AlunosComponent},
+  {path: 'cadastro', component: AlunosFormComponent},
+  {path: ':id', component: AlunosFormComponent},
+  {path: 'detalhes/', component: AlunosDetalhesComponent}
 ];
 
-export const AlunosRouting: ModuleWithProviders = RouterModule.forChild(routes);
+export const AlunosRouting: ModuleWithProviders = RouterModule.forChild(AlunoRoutes);

@@ -1,27 +1,29 @@
-<div class="div-title">
-  <h2 class="title">Listagem Alunos</h2>
-  <button type="button" class="btn btn-success btn-cadastro">Cadastrar Aluno</button>
+<div class="row mt-2">
+  <div class="col-md-10"><h2 class="title">Listagem Alunos</h2></div>
+  <div class="col-md-2"><button type="button" class="btn btn-success float-right">Cadastrar Aluno</button></div>
 </div>
   
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col" *ngFor="let coluna of colunas">
-          {{ coluna }}
-      </th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr *ngFor="let aluno of alunos">
-          <th>{{aluno.Nome}}</th>
-          <th>{{aluno.CPF}}</th>
-          <th>{{aluno.Idade}}</th>
-          <th class='th-menu-actions'>
-            <button type="button" class="btn btn-info" value={{aluno.Id}}>Detalhes</button>
-            <button type="button" class="btn btn-warning" value={{aluno.Id}}>Alterar</button>
-            <button type="button" class="btn btn-danger" value={{aluno.Id}}>Remover</button>
-          </th>
+<div>
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col" *ngFor="let coluna of colunas">
+            {{ coluna }}
+        </th>
+        <th></th>
       </tr>
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+        <tr *ngFor="let aluno of alunos">
+            <th>{{aluno.Nome}}</th>
+            <th>{{aluno.CPF}}</th>
+            <th>{{aluno.Idade}}</th>
+            <th class='th-menu-actions'>
+              <button type="button" class="btn btn-info" value={{aluno.Id}}>Detalhes</button>
+              <button type="button" class="btn btn-warning" value={{aluno.Id}}>Alterar</button>
+              <button type="button" class="btn btn-danger" value={{aluno.Id}}>Remover</button>
+            </th>
+        </tr>
+    </tbody>
+  </table>
+</div>
