@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+.btn-info{
+    margin : 5px !important;
+}
+
+.btn-warning{
+    margin : 5px !important;
+}
+
+.btn-danger{
+    margin : 5px !important;
+}
+
+.th-menu-actions{
+    text-align: left;
+    width: 310px;
+}
+
+.div-title{
+    padding-top: 15px;
+}
+
+.btn-cadastro{
+    position: absolute;
+    right: 130px;
+    top:75px;
+}
