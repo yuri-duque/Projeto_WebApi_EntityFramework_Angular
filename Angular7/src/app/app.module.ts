@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlunosComponent } from './alunos/alunos.component';
 
@@ -10,7 +11,8 @@ import { AlunosComponent } from './alunos/alunos.component';
     AlunosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
