@@ -1,6 +1,6 @@
 <div class="row mt-2">
   <div class="col-md-10"><h2 class="title">Listagem Alunos</h2></div>
-  <div class="col-md-2"><button type="button" class="btn btn-success float-right">Cadastrar Aluno</button></div>
+  <div class="col-md-2"><button type="button" class="btn btn-success float-right" [routerLink]="['cadastro']">Cadastrar Aluno</button></div>
 </div>
   
 <div>
@@ -11,7 +11,6 @@
             {{ coluna }}
         </th>
         <th></th>
-      </tr>
     </thead>
     <tbody>
         <tr *ngFor="let aluno of alunos">
@@ -19,9 +18,9 @@
             <th>{{aluno.CPF}}</th>
             <th>{{aluno.Idade}}</th>
             <th class='th-menu-actions'>
-              <button type="button" class="btn btn-info" value={{aluno.Id}}>Detalhes</button>
-              <button type="button" class="btn btn-warning" value={{aluno.Id}}>Alterar</button>
-              <button type="button" class="btn btn-danger" value={{aluno.Id}}>Remover</button>
+              <button type="button" class="btn btn-info" [routerLink]="['detalhes']" [queryParams]="{id: aluno.Id}">Detalhes</button>
+              <button type="button" class="btn btn-warning" [routerLink]="['alterar']" [queryParams]="{id: aluno.Id}">Alterar</button>
+              <button type="button" class="btn btn-danger">Remover</button>
             </th>
         </tr>
     </tbody>

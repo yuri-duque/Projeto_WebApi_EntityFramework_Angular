@@ -7,10 +7,13 @@ import { AlunosDetalhesComponent } from './alunos-detalhes/alunos-detalhes.compo
 
 
 const AlunoRoutes: Routes = [
+
+  { path: '', redirectTo: '/alunos', pathMatch: 'full' },
+
   {path: '', component: AlunosComponent},
   {path: 'cadastro', component: AlunosFormComponent},
-  {path: ':id', component: AlunosFormComponent},
-  {path: 'detalhes/', component: AlunosDetalhesComponent}
+  {path: 'alterar/:id', component: AlunosFormComponent},
+  {path: 'detalhes/:id', component: AlunosDetalhesComponent}
 ];
 
 export const AlunosRouting: ModuleWithProviders = RouterModule.forChild(AlunoRoutes);
