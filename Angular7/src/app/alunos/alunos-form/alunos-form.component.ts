@@ -12,4 +12,6 @@ export class AlunosFormComponent implements OnInit {
   ngOnInit() {
   }
 
+  textoBotaoSubmit: string = "Cadastrar"
+
 }

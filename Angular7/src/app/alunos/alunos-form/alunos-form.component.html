@@ -1,3 +1,20 @@
-<p>
-  alunos-form works!
-</p>
+<div class="row mt-2">
+  <div class="col-md-10"><h2 class="title">Cadastro de alunos</h2></div>
+  <div class="col-md-2"><button type="button" class="btn btn-success float-right" [routerLink]="['/alunos']">Voltar</button></div>
+</div>
+
+<form class="pt-3">
+  <div class="form-group">
+    <label for="alunoNome">Nome:</label>
+    <input type="text" class="form-control" id="alunoNome" placeholder="Escreva o nome do aluno!">
+  </div>
+  <div class="form-group">
+    <label for="alunoCPF">CPF:</label>
+    <input type="text" class="form-control" id="alunoCPF" placeholder="CPF do aluno!">
+  </div>
+  <div class="form-group">
+    <label for="alunoIdade">Idade:</label>
+    <input type="text" class="form-control" id="alunoIdade" placeholder="Idade do aluno!">
+  </div>
+  <button type="submit" class="btn btn-primary"> {{textoBotaoSubmit}}</button>
+</form>
