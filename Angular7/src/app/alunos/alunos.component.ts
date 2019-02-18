@@ -15,14 +15,14 @@ export class AlunosComponent implements OnInit {
   colunas: any[] = ["Id", "Nome", "CPF", "Idade"];
 
   alunos: Alunos[] = [
-    {Id: 1, Nome: 'Yuri', CPF: '000.000.000-01', Idade: 22},
-    {Id: 2, Nome: 'Laryssa', CPF: '000.000.000-02', Idade: 20}
+    {id: 1, nome: 'Yuri', cpf: '000.000.000-01', idade: 22},
+    {id: 2, nome: 'Laryssa', cpf: '000.000.000-02', idade: 20}
   ]
 }
 
 export class Alunos{
-  Id: number;
-  Nome: string;
-  CPF: String;
-  Idade: number;
+  id: number;
+  nome: string;
+  cpf: String;
+  idade: number;
 }
