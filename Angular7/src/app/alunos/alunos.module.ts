@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgxSmartModalModule } from 'ngx-smart-modal';
 
 import { AlunosDetalhesComponent } from './alunos-detalhes/alunos-detalhes.component';
 import { AlunosFormComponent } from './alunos-form/alunos-form.component';
@@ -14,7 +15,8 @@ import { AlunosComponent } from './alunos.component';
   ],
   imports: [
     CommonModule,
-    AlunosRouting
+    AlunosRouting,
+    NgxSmartModalModule.forChild()
   ]
 })
 export class AlunosModule { }

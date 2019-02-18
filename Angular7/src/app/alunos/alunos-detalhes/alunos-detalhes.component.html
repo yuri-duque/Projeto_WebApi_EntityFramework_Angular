@@ -1,3 +1,14 @@
-<p>
-  alunos-detalhes works!
-</p>
+<button (click)="ngxSmartModalService.getModal('myModal').open()">Open myModal</button>
+
+<ngx-smart-modal #myModal identifier="myModal">
+  <div class="nsm-body">
+    <h1 _ngcontent-c2="">Hey, I'm a simple modal!</h1><img _ngcontent-c2="" alt="Lorem picsum" class="modal-image"
+      src="https://placeimg.com/627/200/tech">
+    <p _ngcontent-c2="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper neque ac
+      ullamcorper scelerisque. Proin molestie erat sapien, ac dapibus tortor placerat a. Vivamus quis tempor mauris. Ut
+      porta ultricies nisi in eleifend. In magna nisi, tempor pharetra consequat in, sagittis id augue. Aliquam eu
+      lectus id mi vulputate convallis. Nam facilisis nisl quis urna gravida tempus.</p>
+  </div>
+
+  <button (click)="myModal.close()">Close</button>
+</ngx-smart-modal>
