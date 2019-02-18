@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxSmartModalService } from 'ngx-smart-modal';
 
 @Component({
   selector: 'app-alunos',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
 
-  constructor() {}
+  constructor(public ngxSmartModalService: NgxSmartModalService) {}
 
   ngOnInit() {  
   }
@@ -18,6 +19,11 @@ export class AlunosComponent implements OnInit {
     {id: 1, nome: 'Yuri', cpf: '000.000.000-01', idade: 22},
     {id: 2, nome: 'Laryssa', cpf: '000.000.000-02', idade: 20}
   ]
+
+  Open(id: number) {
+    //alert(id);
+    this.ngxSmartModalService.getModal('myModal').open();
+  }
 }
 
 export class Alunos{

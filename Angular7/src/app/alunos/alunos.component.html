@@ -19,7 +19,7 @@
             <th>{{aluno.cpf}}</th>
             <th>{{aluno.idade}}</th>
             <th class='th-menu-actions'>
-              <button type="button" class="btn btn-info" [routerLink]="['detalhes', aluno.id]">Detalhes</button>
+              <button type="button" class="btn btn-info" (click)="Open(aluno.id)">Detalhes</button>
               <button type="button" class="btn btn-warning" [routerLink]="['alterar', aluno.id]">Alterar</button>
               <button type="button" class="btn btn-danger">Remover</button>
             </th>
@@ -27,3 +27,5 @@
     </tbody>
   </table>
 </div>
+
+<app-alunos-detalhes></app-alunos-detalhes>
