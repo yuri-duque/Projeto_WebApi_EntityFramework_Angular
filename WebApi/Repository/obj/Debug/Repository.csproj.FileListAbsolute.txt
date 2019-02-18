@@ -1,0 +1,10 @@
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\Repository.dll.config
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\Repository.dll
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\Repository.pdb
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\EntityFramework.dll
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\EntityFramework.xml
+E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.dll
+E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.pdb

@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebApi_EntityFramework",
-    "\\WebApi_EntityFramework\\App_Data",
-    "\\WebApi_EntityFramework\\Models",
-    "\\WebApi_EntityFramework\\obj",
-    "\\WebApi_EntityFramework\\obj\\Debug"
+    "\\Projeto_EntityFramework"
   ],
+  "SelectedNode": "\\Projeto_EntityFramework\\Projeto_EntityFramework.csproj",
   "PreviewInSolutionExplorer": false
 }
