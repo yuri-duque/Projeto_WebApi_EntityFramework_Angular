@@ -12,7 +12,7 @@ export class AlunosComponent implements OnInit {
   ngOnInit() {  
   }
 
-  colunas: any[] = ["Nome", "CPF", "Idade"];
+  colunas: any[] = ["Id", "Nome", "CPF", "Idade"];
 
   alunos: Alunos[] = [
     {Id: 1, Nome: 'Yuri', CPF: '000.000.000-01', Idade: 22},
