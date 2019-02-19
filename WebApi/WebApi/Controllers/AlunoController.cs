@@ -19,7 +19,13 @@ namespace WebApi.Controllers
         //GET: api/Aluno
         public IEnumerable<Aluno> Get()
         {
-            return db.GetAll();
+            var teste = db.GetAll();
+            int cont = 0;
+
+            foreach (var t in teste)
+                cont++;
+
+            return teste;
         }
 
         // GET: api/Aluno/5
