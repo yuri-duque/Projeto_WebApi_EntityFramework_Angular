@@ -8,3 +8,14 @@ E:\git\Projetos\WebApi\WebApi\Repository\bin\Debug\EntityFramework.SqlServer.xml
 E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.dll
 E:\git\Projetos\WebApi\WebApi\Repository\obj\Debug\Repository.pdb
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\Repository.dll.config
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\Repository.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\Repository.pdb
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\EntityFramework.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\EntityFramework.xml
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\obj\Debug\Repository.csproj.CopyComplete
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\obj\Debug\Repository.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\Repository\obj\Debug\Repository.pdb

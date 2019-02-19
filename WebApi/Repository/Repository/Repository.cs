@@ -1,10 +1,7 @@
 ﻿using Repository.Context;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repository.Repository
 {
@@ -16,6 +13,7 @@ namespace Repository.Repository
         }
 
         BaseContext ctx = new BaseContext();
+
         public IQueryable<TEntity> GetAll()
         {
             return ctx.Set<TEntity>();
@@ -36,7 +34,7 @@ namespace Repository.Repository
             ctx.Entry(obj).State = EntityState.Modified;
         }
 
-        public void Save(TEntity obj)
+        public virtual void Save(TEntity obj)
         {
             ctx.Set<TEntity>().Add(obj);
             ctx.SaveChanges();

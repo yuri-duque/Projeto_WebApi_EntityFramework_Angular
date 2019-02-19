@@ -1,0 +1,12 @@
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\EntityFramework.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\EntityFramework.xml
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
