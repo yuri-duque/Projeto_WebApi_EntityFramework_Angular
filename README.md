@@ -4,7 +4,3 @@ Projeto de um site com frontend feito em Angular com comunicação com uma WebAp
 Comandos necessários para rodar o projeto:
 
 - npm install
-
-
-- npm i ngx-smart-modal --save
-- npm i web-animations-js --save
