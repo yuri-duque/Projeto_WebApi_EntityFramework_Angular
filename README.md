@@ -5,6 +5,6 @@ Codigos nescessários para rodar o projeto:
 
 - npm install
 
------ MODAL -----
+
 - npm i ngx-smart-modal --save
 - npm i web-animations-js --save
