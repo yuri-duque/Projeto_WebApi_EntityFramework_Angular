@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSmartModalService } from 'ngx-smart-modal';
+import { AlunosService } from './alunos.service';
+import { Aluno } from '../models/Aluno';
 
 @Component({
   selector: 'app-alunos',
@@ -8,27 +10,22 @@ import { NgxSmartModalService } from 'ngx-smart-modal';
 })
 export class AlunosComponent implements OnInit {
 
-  constructor(public ngxSmartModalService: NgxSmartModalService) {}
-
-  ngOnInit() {  
-  }
-
+  alunos: Aluno[] = [];
   colunas: any[] = ["Id", "Nome", "CPF", "Idade"];
 
-  alunos: Alunos[] = [
-    {id: 1, nome: 'Yuri', cpf: '000.000.000-01', idade: 22},
-    {id: 2, nome: 'Laryssa', cpf: '000.000.000-02', idade: 20}
-  ]
+  constructor(
+    public ngxSmartModalService: NgxSmartModalService,
+    private alunosService: AlunosService
+    ) {
+  }
+
+  ngOnInit() {  
+    this.alunosService.list()
+      .subscribe(dados => this.alunos = dados);
+  }
 
   Open(id: number) {
     //alert(id);
     this.ngxSmartModalService.getModal('myModal').open();
   }
-}
-
-export class Alunos{
-  id: number;
-  nome: string;
-  cpf: String;
-  idade: number;
 }
