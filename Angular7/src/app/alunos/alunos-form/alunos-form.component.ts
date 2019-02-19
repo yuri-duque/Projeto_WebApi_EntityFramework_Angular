@@ -18,8 +18,8 @@ export class AlunosFormComponent implements OnInit {
     this.AlteraValorTituloEbotao();
   }
 
+  //Metodo usado para alterar dinamicamente o Titulo e o text do botão no formulário
   AlteraValorTituloEbotao(){
-
     this.url = window.location.href;
 
     if(this.url.search("alterar") != -1){
