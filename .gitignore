@@ -1,7 +1,4 @@
 WebApi/Repository/obj/Debug/
+WebApi/Repository/bin/
 WebApi/WebApi/obj/Debug/
 WebApi/WebApi/bin/
-WebApi/Repository/bin/Debug/EntityFramework.dll
-WebApi/Repository/bin/Debug/EntityFramework.xml
-WebApi/Repository/bin/Debug/EntityFramework.SqlServer.dll
-WebApi/Repository/bin/Debug/Repository.exe
