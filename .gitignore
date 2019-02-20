@@ -1,8 +1,0 @@
-################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/WebApi/.vs/WebApi_Com_EntityFrameWork/v15/Server/sqlite3/storage.ide-wal
-/WebApi/.vs/WebApi_Com_EntityFrameWork/v15/Server/sqlite3/storage.ide-shm
-/WebApi/.vs/WebApi_Com_EntityFrameWork/v15/Server/sqlite3/storage.ide
-/WebApi/.vs/WebApi_Com_EntityFrameWork/v15/Server/sqlite3/db.lock

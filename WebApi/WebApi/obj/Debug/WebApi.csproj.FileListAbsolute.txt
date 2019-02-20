@@ -80,83 +80,85 @@ D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_A
 D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\obj\Debug\WebApi.pdb
 D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.SqlServer.dll
 D:\Projetos\Dot net\Projeto_EntityFramework\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.SqlServer.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\ApplicationInsights.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\csc.exe
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\csc.exe.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\csc.rsp
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\csi.exe
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\csi.rsp
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.AppContext.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.Collections.Immutable.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.IO.FileSystem.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\System.Reflection.Metadata.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\vbc.exe
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\vbc.exe.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\vbc.rsp
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\VBCSCompiler.exe
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\roslyn\VBCSCompiler.exe.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\WebApi.dll.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\WebApi.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\WebApi.pdb
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Antlr3.Runtime.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.SqlServer.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.Agent.Intercept.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.DependencyCollector.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.Web.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.WindowsServer.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.ApplicationInsights.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Newtonsoft.Json.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Repository.exe
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Helpers.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Http.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Mvc.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Optimization.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Razor.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\WebGrease.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Repository.pdb
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Repository.exe.config
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\EntityFramework.SqlServer.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Newtonsoft.Json.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Helpers.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Http.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Mvc.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Optimization.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.Razor.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Antlr3.Runtime.pdb
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.ApplicationInsights.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.DependencyCollector.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.WindowsServer.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\bin\Microsoft.AI.Web.xml
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\obj\Debug\WebApi.dll
-E:\git\Projetos\Projeto_WebApi_EntityFramework_Com_Angular\WebApi\WebApi\obj\Debug\WebApi.pdb
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\ApplicationInsights.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\csc.exe
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\csc.exe.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\csc.rsp
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\csi.exe
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\csi.rsp
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.AppContext.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\vbc.exe
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\vbc.exe.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\vbc.rsp
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\WebApi.dll.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\WebApi.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\WebApi.pdb
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Antlr3.Runtime.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\EntityFramework.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.Web.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Newtonsoft.Json.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Repository.exe
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Helpers.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Http.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Mvc.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Optimization.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Razor.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\WebGrease.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Repository.pdb
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Repository.exe.config
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\EntityFramework.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Newtonsoft.Json.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Helpers.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Http.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Mvc.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Optimization.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.Razor.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\bin\Microsoft.AI.Web.xml
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\obj\Debug\WebApi.csprojAssemblyReference.cache
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\obj\Debug\WebApi.csproj.CopyComplete
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\obj\Debug\WebApi.dll
+C:\Users\Yuri\Desktop\Nova pasta\WebApi\WebApi\obj\Debug\WebApi.pdb

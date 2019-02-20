@@ -6,7 +6,7 @@ using System.Web.Http;
 
 namespace WebApi.Controllers
 {
-    [RoutePrefix("api/Aluno")]
+    [RoutePrefix("api/aluno")]
     public class AlunoController : ApiController
     {
         private AlunoRepository db;

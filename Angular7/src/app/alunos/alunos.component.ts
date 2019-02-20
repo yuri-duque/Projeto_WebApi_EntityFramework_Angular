@@ -36,14 +36,14 @@ export class AlunosComponent implements OnInit {
     //subscribe - Executa q query em async
     this.alunosService.list().subscribe(
       alunos => this.alunos = alunos
-    ),
+    )
     //Caso de algum erro será tratado aqui
-    error(
+    //error(
 
-    ),
+    //),
     //Metodo Complete - caso seja necessário buscar os alunos de uma sala especifica ( buca-se a sala na listame, depois realiza a busca dos alunos dentro do metodo abaixo)
-    () => {
+    //() => {
       
-    }
+    //}
   }
 }

@@ -9,7 +9,7 @@ import { tap } from 'rxjs/operators';
 export class AlunosService {
 
   //Url da API
-  private readonly API = 'http://localhost:3000/cursos'
+  private readonly API = 'http://localhost:61709/api/aluno'
 
   constructor(private http: HttpClient) { }
 
