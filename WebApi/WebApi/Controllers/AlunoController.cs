@@ -33,7 +33,7 @@ namespace WebApi.Controllers
         // GET: api/Aluno/5
         public Aluno GetById(int id)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
 
             return aluno != null ? aluno : null;
         }
@@ -50,7 +50,7 @@ namespace WebApi.Controllers
         // PUT: api/Aluno/5
         public void Put(int id, [FromBody]Aluno value)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
 
             if (aluno != null)
             {
@@ -61,11 +61,11 @@ namespace WebApi.Controllers
         // DELETE: api/Aluno/5
         public void Delete(int id)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
 
             if (aluno != null)
                 //Delete com linq
-                alunoRepository.Delete(x => x.AlunoId == id);
+                alunoRepository.Delete(x => x.alunoId == id);
         }
     }
 }

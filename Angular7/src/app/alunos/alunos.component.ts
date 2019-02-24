@@ -45,7 +45,7 @@ export class AlunosComponent implements OnInit {
     //this.testeCont = this.alunos.toString();
 
     for (let iterator of this.alunos) {
-      this.testeNome1 = iterator.Nome;
+      this.testeNome1 = iterator.nome;
     }
     //Caso de algum erro será tratado aqui
     //error(

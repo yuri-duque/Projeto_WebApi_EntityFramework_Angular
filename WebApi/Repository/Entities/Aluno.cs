@@ -9,16 +9,17 @@ namespace Repository.Entities
     public class Aluno
     {
         //O mapeamento também pode ser feito dessa forma
+        [Key]
         [Required]
-        public int AlunoId { get; set; }
+        public int alunoId { get; set; }
         [Required]
-        public string Nome { get; set; }
-        public int Idade { get; set; }
+        public string nome { get; set; }
+        public int idade { get; set; }
         [Required]
-        public string Cpf { get; set; }
+        public string cpf { get; set; }
 
-        //public static void Map(DbModelBuilder modelBuilder)
-        //{
+        public static void Map(DbModelBuilder modelBuilder)
+        {
             ////Outra forma de definir o nome da tabela
             //modelBuilder.Entity<Aluno>().ToTable("Alunos");
 
@@ -29,6 +30,6 @@ namespace Repository.Entities
             //modelBuilder.Entity<Aluno>().Property(p => p.Id).IsRequired();
 
             //modelBuilder.Entity<Aluno>().HasKey(p => p.Id);
-        //}
+        }
     }
 }

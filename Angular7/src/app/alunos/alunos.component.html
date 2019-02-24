@@ -14,13 +14,13 @@
     </thead>
     <tbody>
         <tr *ngFor="let aluno of alunos">
-            <th>{{aluno.id}}</th>
+            <th>{{aluno.alunoId}}</th>
             <th>{{aluno.nome}}</th>
             <th>{{aluno.cpf}}</th>
             <th>{{aluno.idade}}</th>
             <th class='th-menu-actions'>
-              <button type="button" class="btn btn-info" (click)="Open(aluno.id)">Detalhes</button>
-              <button type="button" class="btn btn-warning" [routerLink]="['alterar', aluno.id]">Alterar</button>
+              <button type="button" class="btn btn-info" (click)="Open(aluno.alunoId)">Detalhes</button>
+              <button type="button" class="btn btn-warning" [routerLink]="['alterar', aluno.alunoId]">Alterar</button>
               <button type="button" class="btn btn-danger">Remover</button>
             </th>
         </tr>
