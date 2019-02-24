@@ -21,7 +21,7 @@ namespace Repository.Context
 
             base.OnModelCreating(modelBuilder);
 
-            Aluno.Map(modelBuilder);
+            //Aluno.Map(modelBuilder);
         }
 
         public DbSet<Aluno> alunos{ get; set; }

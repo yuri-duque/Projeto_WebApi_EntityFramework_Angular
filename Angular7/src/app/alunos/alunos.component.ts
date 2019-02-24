@@ -12,6 +12,10 @@ import { error } from 'util';
 export class AlunosComponent implements OnInit {
 
   alunos: Aluno[];
+
+  testeNome1: string;
+  testeCont: string;
+
   //Usado para definir os nomes das colunas da tabela de listagem
   colunas: any[] = ["Id", "Nome", "CPF", "Idade"];
 
@@ -37,6 +41,12 @@ export class AlunosComponent implements OnInit {
     this.alunosService.list().subscribe(
       alunos => this.alunos = alunos
     )
+
+    //this.testeCont = this.alunos.toString();
+
+    for (let iterator of this.alunos) {
+      this.testeNome1 = iterator.Nome;
+    }
     //Caso de algum erro será tratado aqui
     //error(
 

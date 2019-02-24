@@ -3,35 +3,37 @@ using Repository.Repository.RepositoryEntities;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace WebApi.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]//Usado para aceitar requisições de outras urls
     [RoutePrefix("api/aluno")]
     public class AlunoController : ApiController
     {
-        private AlunoRepository db;
+        private AlunoRepository alunoRepository;
 
         public AlunoController()
         {
-            this.db = new AlunoRepository();
+            this.alunoRepository = new AlunoRepository();
         }
 
         //GET: api/Aluno
         public IEnumerable<Aluno> Get()
         {
-            var teste = db.GetAll();
+            var alunos = alunoRepository.GetAll();
             int cont = 0;
 
-            foreach (var t in teste)
+            foreach (var a in alunos)
                 cont++;
 
-            return teste;
+            return alunos;
         }
 
         // GET: api/Aluno/5
         public Aluno GetById(int id)
         {
-            var aluno = db.GetAll().FirstOrDefault(f => f.Id == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
 
             return aluno != null ? aluno : null;
         }
@@ -41,29 +43,29 @@ namespace WebApi.Controllers
         {
             if (value != null)
             {
-                db.Save(value);
+                alunoRepository.Save(value);
             }
         }
 
         // PUT: api/Aluno/5
         public void Put(int id, [FromBody]Aluno value)
         {
-            var aluno = db.GetAll().FirstOrDefault(f => f.Id == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
 
             if (aluno != null)
             {
-                db.Update(value);
+                alunoRepository.Update(value);
             }
         }
 
         // DELETE: api/Aluno/5
         public void Delete(int id)
         {
-            var aluno = db.GetAll().FirstOrDefault(f => f.Id == id);
+            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.AlunoId == id);
 
             if (aluno != null)
                 //Delete com linq
-                db.Delete(x => x.Id == id);
+                alunoRepository.Delete(x => x.AlunoId == id);
         }
     }
 }

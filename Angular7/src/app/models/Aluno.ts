@@ -1,6 +1,6 @@
 export class Aluno{
-  id: number;
-  nome: string;
-  cpf: String;
-  idade: number;
+  AlunoId: number;
+  Nome: string;
+  Idade: number;
+  Cpf: String;
 }

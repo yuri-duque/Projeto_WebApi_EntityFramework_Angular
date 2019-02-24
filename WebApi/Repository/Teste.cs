@@ -1,10 +1,6 @@
 ﻿using Repository.Entities;
 using Repository.Repository.RepositoryEntities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repository
 {
@@ -19,7 +15,7 @@ namespace Repository
             var alunos = alunoRepository.GetAll();
 
             foreach (var a in alunos)
-                Console.WriteLine($"{a.Id} - {a.Nome} - {a.Idade} - {a.Cpf}");
+                Console.WriteLine($"{a.AlunoId} - {a.Nome} - {a.Idade} - {a.Cpf}");
 
             Console.ReadKey();
 
@@ -41,7 +37,7 @@ namespace Repository
             alunos = alunoRepository.GetAll();
 
             foreach (var a in alunos)
-                Console.WriteLine($"{a.Id} - {a.Nome} - {a.Idade} - {a.Cpf}");
+                Console.WriteLine($"{a.AlunoId} - {a.Nome} - {a.Idade} - {a.Cpf}");
 
             Console.ReadKey();
         }
