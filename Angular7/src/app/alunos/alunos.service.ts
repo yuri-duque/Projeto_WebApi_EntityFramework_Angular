@@ -20,6 +20,13 @@ export class AlunosService {
     );
   }
 
+  getAlunoById(id: number){
+    return this.http.get<Aluno>(this.API + '/' + id)
+    .pipe(
+      tap(console.log)
+    );
+  }
+
   //Executar para ver a difereça do metodo acima
   // list(){
   //   let teste = this.http.get<Aluno[]>(this.API)

@@ -3,18 +3,18 @@
   <div class="col-md-2"><button type="button" class="btn btn-success float-right" [routerLink]="['/alunos']">Voltar</button></div>
 </div>
 
-<form class="pt-3">
+<form class="pt-3" #form="ngForm" (ngSubmit)="onSubmit(form)">
   <div class="form-group">
     <label for="alunoNome">Nome:</label>
-    <input type="text" class="form-control" id="alunoNome" placeholder="Escreva o nome do aluno!">
-  </div>
-  <div class="form-group">
-    <label for="alunoCPF">CPF:</label>
-    <input type="text" class="form-control" id="alunoCPF" placeholder="CPF do aluno!">
+    <input type="text" class="form-control" name="nome" id="alunoNome" placeholder="Escreva o nome do aluno!" [(ngModel)]="aluno.nome">
   </div>
   <div class="form-group">
     <label for="alunoIdade">Idade:</label>
-    <input type="text" class="form-control" id="alunoIdade" placeholder="Idade do aluno!">
+    <input type="text" class="form-control" name="idade" id="alunoIdade" placeholder="Idade do aluno!" [(ngModel)]="aluno.idade">
+  </div>
+  <div class="form-group">
+    <label for="alunoCPF">CPF:</label>
+    <input type="text" class="form-control" name="cpf" id="alunoCPF" placeholder="CPF do aluno!" [(ngModel)]="aluno.cpf">
   </div>
   <button type="submit" class="btn btn-primary"> {{textoBotaoSubmit}}</button>
 </form>
