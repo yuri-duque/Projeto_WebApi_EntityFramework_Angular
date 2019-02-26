@@ -12,6 +12,7 @@ export class AlunosFormComponent implements OnInit {
   constructor(private alunosService: AlunosService) { }
 
   aluno: Aluno = new Aluno();
+  cadastrando: boolean;
 
   textoBotaoSubmit: string;
   tituloFormulario: string;
@@ -23,6 +24,11 @@ export class AlunosFormComponent implements OnInit {
 
   onSubmit(form){
     console.log(form);
+
+    if(this.cadastrando)
+      this.alunosService.postAluno(this.aluno);
+    else
+      this.alunosService.putAluno(this.aluno);
   }
 
   //Metodo usado para alterar dinamicamente o Titulo e o text do botão no formulário
@@ -34,11 +40,14 @@ export class AlunosFormComponent implements OnInit {
       this.tituloFormulario = "Alterando aluno";
       this.textoBotaoSubmit = "Alterar";
 
+      this.cadastrando = false;
       this.GetAlunoById(this.url);
     }
     else if(this.url.search("cadastro") != -1){
       this.tituloFormulario = "Cadastrando aluno";
       this.textoBotaoSubmit = "Cadastrar";
+
+      this.cadastrando = true;
     }
   }
 

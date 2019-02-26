@@ -38,7 +38,7 @@ export class AlunosComponent implements OnInit {
   //Listagem de alunos buscando na api
   Listagem(){
     //subscribe - Executa q query em async
-    this.alunosService.list().subscribe(
+    this.alunosService.getAll().subscribe(
       alunos => this.alunos = alunos
     )
     //Caso de algum erro será tratado aqui
