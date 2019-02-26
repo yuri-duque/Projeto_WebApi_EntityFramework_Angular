@@ -22,7 +22,7 @@ export class AlunosFormComponent implements OnInit {
   }
 
   onSubmit(form){
-    console.log(form.value);
+    console.log(form);
   }
 
   //Metodo usado para alterar dinamicamente o Titulo e o text do botão no formulário

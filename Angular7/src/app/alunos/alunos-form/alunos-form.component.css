@@ -1,0 +1,5 @@
+/* Css das validações */
+
+.ng-invalid.ng-touched:not(form){
+    border: 1px solid #721c24;
+}

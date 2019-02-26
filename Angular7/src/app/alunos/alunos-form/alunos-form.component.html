@@ -1,20 +1,44 @@
 <div class="row mt-2">
   <div class="col-md-10"><h2 class="title">{{tituloFormulario}}</h2></div>
-  <div class="col-md-2"><button type="button" class="btn btn-success float-right" [routerLink]="['/alunos']">Voltar</button></div>
+  <div class="col-md-2"><button type="button" class="btn btn-success float-right mt-1" [routerLink]="['/alunos']">Voltar</button></div>
 </div>
 
 <form class="pt-3" #form="ngForm" (ngSubmit)="onSubmit(form)">
+
   <div class="form-group">
-    <label for="alunoNome">Nome:</label>
-    <input type="text" class="form-control" name="nome" id="alunoNome" placeholder="Escreva o nome do aluno!" [(ngModel)]="aluno.nome">
+    <label for="alunoNome" class="font-weight-bold">Nome:</label>
+    <input type="text" class="form-control" name="nome" id="alunoNome" placeholder="Escreva o nome do aluno!" 
+      [(ngModel)]="aluno.nome" required #nome="ngModel">
+      <div class="alert alert-danger" *ngIf="!nome.valid && nome.touched">
+        Nome é obrigatório!
+      </div>
   </div>
-  <div class="form-group">
-    <label for="alunoIdade">Idade:</label>
-    <input type="text" class="form-control" name="idade" id="alunoIdade" placeholder="Idade do aluno!" [(ngModel)]="aluno.idade">
+
+  <div class="form-row">
+    <div class="col-md-3">
+        <label for="alunoIdade" class="font-weight-bold">Idade:</label>
+        <input type="number" class="form-control" name="idade" id="alunoIdade" placeholder="Idade do aluno!" 
+          [(ngModel)]="aluno.idade" required #idade="ngModel">
+          <div class="alert alert-danger" role="alert" *ngIf="!idade.valid && idade.touched">
+            Idade é obrigatória!
+          </div>
+    </div>
+
+    <div class="col">
+      <label for="alunoCPF" class="font-weight-bold">CPF:</label>
+      <input type="text" class="form-control" name="cpf" id="alunoCPF" placeholder="000.000.000-00" 
+        [(ngModel)]="aluno.cpf" required #cpf="ngModel">
+        <div class="alert alert-danger" role="alert" *ngIf="!cpf.valid && cpf.touched">
+          CPF é obrigatório!
+        </div>
+      </div>
   </div>
-  <div class="form-group">
-    <label for="alunoCPF">CPF:</label>
-    <input type="text" class="form-control" name="cpf" id="alunoCPF" placeholder="CPF do aluno!" [(ngModel)]="aluno.cpf">
+
+  <div class="form-group pt-3">
+    <label for="alunoEmail" class="font-weight-bold">E-mail:</label>
+    <input type="email" class="form-control" name="email" id="alunoEmail" placeholder="E-mail do aluno!" 
+      email #email>
   </div>
-  <button type="submit" class="btn btn-primary"> {{textoBotaoSubmit}}</button>
+
+  <button type="submit" class="btn btn-primary" [disabled]="!form.form.valid"> {{textoBotaoSubmit}}</button>
 </form>
