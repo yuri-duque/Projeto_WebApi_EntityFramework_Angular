@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Aluno } from 'src/app/models/Aluno';
-import { AlunosService } from '../alunos.service';
+import { AlunosService } from 'src/app/service/alunos.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alunos-form',
@@ -9,7 +10,7 @@ import { AlunosService } from '../alunos.service';
 })
 export class AlunosFormComponent implements OnInit {
 
-  constructor(private alunosService: AlunosService) { }
+  constructor(private alunosService: AlunosService, private router: Router) { }
 
   aluno: Aluno = new Aluno();
   cadastrando: boolean;
@@ -26,9 +27,9 @@ export class AlunosFormComponent implements OnInit {
     console.log(form);
 
     if(this.cadastrando)
-      this.alunosService.postAluno(this.aluno);
+      this.alunosService.salvarAluno(this.aluno).subscribe(data => this.router.navigateByUrl("http://localhost:61709/api/aluno"));
     else
-      this.alunosService.putAluno(this.aluno);
+      this.alunosService.alterarAluno(this.aluno).subscribe();
   }
 
   //Metodo usado para alterar dinamicamente o Titulo e o text do botão no formulário
@@ -56,7 +57,7 @@ export class AlunosFormComponent implements OnInit {
     let parameters = url.split("/")
     this.aluno.alunoId = Number(parameters[parameters.length - 1]);
 
-    this.alunosService.getAlunoById(this.aluno.alunoId).subscribe(
+    this.alunosService.buscarPorId(this.aluno.alunoId).subscribe(
       aluno => this.aluno = aluno
     )
   }

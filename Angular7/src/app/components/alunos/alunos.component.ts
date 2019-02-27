@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSmartModalService } from 'ngx-smart-modal';
-import { AlunosService } from './alunos.service';
-import { Aluno } from '../models/Aluno';
-import { error } from 'util';
+import { AlunosService } from 'src/app/service/alunos.service';
+import { Aluno } from 'src/app/models/Aluno';
 
 @Component({
   selector: 'app-alunos',
@@ -38,7 +37,7 @@ export class AlunosComponent implements OnInit {
   //Listagem de alunos buscando na api
   Listagem(){
     //subscribe - Executa q query em async
-    this.alunosService.getAll().subscribe(
+    this.alunosService.buscarTodos().subscribe(
       alunos => this.alunos = alunos
     )
     //Caso de algum erro será tratado aqui
