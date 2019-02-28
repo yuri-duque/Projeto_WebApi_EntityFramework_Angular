@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Component, OnInit, Input } from '@angular/core';
 import { NgxSmartModalService } from 'ngx-smart-modal';
 import { AlunosService } from 'src/app/service/alunos.service';
 import { Aluno } from 'src/app/models/Aluno';
@@ -6,11 +7,12 @@ import { Aluno } from 'src/app/models/Aluno';
 @Component({
   selector: 'app-alunos',
   templateUrl: './alunos.component.html',
-  styleUrls: ['./alunos.component.css']
+  styleUrls: ['./alunos.component.css'],
 })
-export class AlunosComponent implements OnInit {
-
+export class AlunosComponent implements OnInit {  
   alunos: Aluno[];
+
+  aluno: Aluno;
 
   testeNome1: string;
   testeCont: string;
@@ -20,9 +22,9 @@ export class AlunosComponent implements OnInit {
 
   constructor(
     public ngxSmartModalService: NgxSmartModalService,
-    private alunosService: AlunosService
-    ) {
-  }
+    private alunosService: AlunosService,
+    private router: Router
+    ) {}
 
   ngOnInit() {  
     this.Listagem();
@@ -31,7 +33,15 @@ export class AlunosComponent implements OnInit {
   //Metodo usado para abir o modal de detalhes
   Open(id: number) {
     //alert(id);
+
+    this.alunosService.buscarPorId(id).subscribe(aluno => this.aluno = aluno);
+
     this.ngxSmartModalService.getModal('myModal').open();
+  }
+
+  RemoverAluno(id: number){
+    this.alunosService.removerAluno(id).subscribe();
+    location.reload()
   }
 
   //Listagem de alunos buscando na api

@@ -21,11 +21,27 @@
             <th class='th-menu-actions'>
               <button type="button" class="btn btn-info" (click)="Open(aluno.alunoId)">Detalhes</button>
               <button type="button" class="btn btn-warning" [routerLink]="['alterar', aluno.alunoId]">Alterar</button>
-              <button type="button" class="btn btn-danger">Remover</button>
+              <button type="button" class="btn btn-danger" (click)="RemoverAluno(aluno.alunoId)">Remover</button>
             </th>
         </tr>
     </tbody>
   </table>
 </div>
 
-<app-alunos-detalhes></app-alunos-detalhes>
+<ngx-smart-modal #myModal identifier="myModal">
+  <div class="nsm-body">
+    <h2>{{aluno.nome}}</h2>
+  </div>
+  <div class="container pt-3">
+    <ul class="list-inline">
+      <li class="list-inline-item font-weight-bold">CPF:</li>
+      <li class="list-inline-item">{{aluno.cpf}}</li>
+    </ul>
+    <ul class="list-inline">
+      <li class="list-inline-item font-weight-bold">Idade:</li>
+      <li class="list-inline-item">{{aluno.idade}}</li>
+    </ul>
+  </div>
+
+  <button (click)="myModal.close()">Close</button>
+</ngx-smart-modal>

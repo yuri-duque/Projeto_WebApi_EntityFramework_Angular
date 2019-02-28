@@ -29,9 +29,15 @@ namespace Repository.Repository
             return ctx.Set<TEntity>().Find(key);
         }
 
+        public void Detached(TEntity obj)
+        {
+            ctx.Entry(obj).State = EntityState.Detached;
+        }
+
         public void Update(TEntity obj)
         {
             ctx.Entry(obj).State = EntityState.Modified;
+            ctx.SaveChanges();
         }
 
         public virtual void Save(TEntity obj)
@@ -55,6 +61,8 @@ namespace Repository.Repository
             ctx.Set<TEntity>()
                 .Where(predicate).ToList()
                 .ForEach(del => ctx.Set<TEntity>().Remove(del));
+
+            ctx.SaveChanges();
         }
     }
 }
