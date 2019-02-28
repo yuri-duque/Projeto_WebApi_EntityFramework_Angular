@@ -41,7 +41,8 @@ export class AlunosComponent implements OnInit {
 
   RemoverAluno(id: number){
     this.alunosService.removerAluno(id).subscribe();
-    location.reload()
+    //location.reload() //Recarrega a pagina
+    this.Listagem();
   }
 
   //Listagem de alunos buscando na api

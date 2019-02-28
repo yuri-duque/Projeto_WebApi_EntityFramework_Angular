@@ -1,10 +1,10 @@
 ﻿using Repository.Entities;
-using Repository.Repository.RepositoryEntities;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using System.Web.Http.Description;
+using WebApi.Service;
 
 namespace WebApi.Controllers
 {
@@ -12,72 +12,109 @@ namespace WebApi.Controllers
     [RoutePrefix("api/aluno")]
     public class AlunoController : ApiController
     {
-        private AlunoRepository alunoRepository;
+        private AlunoService alunoService;
 
         public AlunoController()
         {
-            this.alunoRepository = new AlunoRepository();
+            this.alunoService = new AlunoService();
         }
 
         //GET: api/Aluno
         [HttpGet]
         [ResponseType(typeof(IEnumerable<Aluno>))]
-        public IEnumerable<Aluno> Get() 
+        //public IEnumerable<Aluno> Get()
+        public IHttpActionResult Get()
         {
-            var alunos = alunoRepository.GetAll();
-            int cont = 0;
+            try
+            {
+                var alunos = alunoService.BuscarTodosAlunos();
 
-            foreach (var a in alunos)
-                cont++;
-
-            return alunos;
+                return Ok(alunos);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
         }
 
         // GET: api/Aluno/5
         [HttpGet]
         [ResponseType(typeof(Aluno))]
-        public Aluno GetById(int id)
+        public IHttpActionResult GetById(int id)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
+            try
+            {
+                var aluno = alunoService.BuscarAlunoPorId(id);
 
-            return aluno != null ? aluno : null;
+                if (aluno != null)
+                    return Ok(aluno);
+                else
+                    return Content(System.Net.HttpStatusCode.NotFound, "Aluno não existe!");
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
+            }
         }
 
         // POST: api/Aluno
         [HttpPost]
         [ResponseType(typeof(bool))]
-        public void Post([FromBody]Aluno value)
+        public IHttpActionResult Post([FromBody]Aluno aluno)
         {
-            if (value != null)
+            try
             {
-                alunoRepository.Save(value);
+                bool salvo = alunoService.SalvarAluno(aluno);
+
+                if(salvo)
+                    return Ok();
+                else
+                    return Content(System.Net.HttpStatusCode.BadRequest, "Não foi possivel salvar o aluno!");
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
             }
         }
 
         // PUT: api/Aluno/5
         [HttpPut]
         [ResponseType(typeof(bool))]
-        public void Put(int id, [FromBody]Aluno value)
+        public IHttpActionResult Put(int id, [FromBody]Aluno aluno)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
-
-            if (aluno != null)
+            try
             {
-                alunoRepository.Detached(aluno);
-                alunoRepository.Update(value);
+                var modificado = alunoService.AlterarAluno(id, aluno);
+
+                if (modificado == "Salvo!")
+                    return Ok();
+                else
+                    return Content(System.Net.HttpStatusCode.BadRequest, modificado);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
             }
         }
 
         // DELETE: api/Aluno/5
         [HttpDelete]
         [ResponseType(typeof(bool))]
-        public void Delete(int id)
+        public IHttpActionResult Delete(int id)
         {
-            var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
+            try
+            {
+                var removido = alunoService.RemoverAluno(id);
 
-            if (aluno != null)
-                //Delete com linq
-                alunoRepository.Delete(x => x.alunoId == id);
+                if (removido)
+                    return Ok();
+                else
+                    return Content(System.Net.HttpStatusCode.BadRequest, "Erro ao remover o aluno!");
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
+            }
         }
     }
 }
