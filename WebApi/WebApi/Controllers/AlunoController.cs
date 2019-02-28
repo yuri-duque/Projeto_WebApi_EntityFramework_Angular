@@ -64,7 +64,7 @@ namespace WebApi.Controllers
         {
             try
             {
-                bool salvo = alunoService.SalvarAluno(aluno);
+                alunoService.SalvarAluno(aluno);
 
                 return Ok();
             }
@@ -81,7 +81,7 @@ namespace WebApi.Controllers
         {
             try
             {
-                var modificado = alunoService.AlterarAluno(id, aluno);
+                alunoService.AlterarAluno(id, aluno);
 
                 return Ok();
             }
