@@ -38,17 +38,22 @@ namespace WebApi.Service
                 return aluno;
         }
 
-        public bool SalvarAluno(Aluno aluno)
+        public void SalvarAluno(Aluno aluno)
         {
             if (aluno != null)
             {
-                alunoRepository.Save(aluno);
-            }
+                var value = alunoRepository.GetAll().FirstOrDefault(f => f.cpf == aluno.cpf);
 
-            return true;
+                if (value == null)
+                    alunoRepository.Save(aluno);
+                else
+                    throw new Exception("Já existe um aluno com esse cpf!");
+            }
+            else
+                throw new Exception("Aluno está nulo!");
         }
 
-        public string AlterarAluno(int id, Aluno value)
+        public void AlterarAluno(int id, Aluno value)
         {
             var aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
 
@@ -58,14 +63,12 @@ namespace WebApi.Service
                 alunoRepository.Update(value);
             }
             else
-                return "Aluno não existe!";
+                throw new Exception("Aluno está nulo!");
 
             aluno = alunoRepository.GetAll().FirstOrDefault(f => f.alunoId == id);
 
-            if (aluno == value)
-                return "Salvo!";
-            else
-                return "Erro ao alterar valores!";
+            if (aluno != value)
+                throw new Exception("Erro ao alterar valores!");
         }
 
         public bool RemoverAluno(int id)

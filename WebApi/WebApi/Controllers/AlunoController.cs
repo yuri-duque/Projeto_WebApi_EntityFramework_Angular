@@ -66,10 +66,7 @@ namespace WebApi.Controllers
             {
                 bool salvo = alunoService.SalvarAluno(aluno);
 
-                if(salvo)
-                    return Ok();
-                else
-                    return Content(System.Net.HttpStatusCode.BadRequest, "Não foi possivel salvar o aluno!");
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -86,10 +83,7 @@ namespace WebApi.Controllers
             {
                 var modificado = alunoService.AlterarAluno(id, aluno);
 
-                if (modificado == "Salvo!")
-                    return Ok();
-                else
-                    return Content(System.Net.HttpStatusCode.BadRequest, modificado);
+                return Ok();
             }
             catch (Exception ex)
             {
