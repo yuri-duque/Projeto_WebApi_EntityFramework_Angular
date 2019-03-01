@@ -1,8 +1,8 @@
-import { Component, OnInit, SimpleChanges, Directive } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Aluno } from 'src/app/models/Aluno';
 import { AlunosService } from 'src/app/service/alunos.service';
 import { Router } from '@angular/router';
-import { Validators, FormControl, ValidatorFn, AbstractControl } from '@angular/forms';
+import { AbstractControl } from '@angular/forms';
 
 @Component({
   selector: 'app-alunos-form',
@@ -24,14 +24,13 @@ export class AlunosFormComponent implements OnInit {
     this.CadastrandoOuAlterando();
   }
 
-  cpfValidator(c: AbstractControl){
-    if (!c.value) return null;
-    return new RegExp('^((\d{3}).(\d{3}).(\d{3})-(\d{2}))*$').test(c.value) ? null : {
-      validateNumber: {
-        //valid: false
-        valid: true //alterado pois a validação não está funcionando
-      }
-    };
+  cpfValidator(){
+    debugger
+    if (!this.aluno.cpf) 
+      return null;
+
+    let teste =  new RegExp('([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})').test(this.aluno.cpf);
+    return teste;
   }
 
   onSubmit(form){
